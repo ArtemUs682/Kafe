@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="gr682_uat3Model1" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="ShiftWorker">
+    <Key>
+      <PropertyRef Name="ShiftId" />
+      <PropertyRef Name="WorkerId" />
+    </Key>
+    <Property Name="ShiftId" Type="Int32" Nullable="false" />
+    <Property Name="WorkerId" Type="Int32" Nullable="false" />
+  </EntityType>
+  <EntityContainer Name="gr682_uat3Entities2" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="ShiftWorker" EntityType="Self.ShiftWorker" />
+  </EntityContainer>
+</Schema>

@@ -1,0 +1,21 @@
+﻿<Window x:Class="Kafe.AuthWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Kafe"
+        mc:Ignorable="d"
+        Title="" Height="577" Width="444">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+        </Grid.ColumnDefinitions>
+        <TextBox x:Name="LoginBox" HorizontalAlignment="Left" Height="43" Margin="91,94,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="254" Grid.ColumnSpan="2" FontSize="18" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+        <PasswordBox x:Name="PassBox" HorizontalAlignment="Left" Margin="91,210,0,0" VerticalAlignment="Top" Width="254" Height="43" Grid.ColumnSpan="2"/>
+        <Button Content="Войти" HorizontalAlignment="Left" Margin="143,300,0,0" VerticalAlignment="Top" Width="150" Grid.ColumnSpan="2" Height="36" FontSize="22" Click="Button_Click"/>
+        <Label Content="Логин" HorizontalAlignment="Left" Margin="91,52,0,0" VerticalAlignment="Top" Width="100" FontSize="24"/>
+        <Label Content="Пароль" HorizontalAlignment="Left" Margin="91,168,0,0" VerticalAlignment="Top" Width="100" FontSize="24"/>
+
+    </Grid>
+</Window>

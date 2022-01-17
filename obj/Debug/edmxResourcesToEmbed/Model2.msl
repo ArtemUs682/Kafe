@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Хранилище gr682_uat3Model1Container" CdmEntityContainer="gr682_uat3Entities2">
+    <EntitySetMapping Name="ShiftWorker">
+      <EntityTypeMapping TypeName="gr682_uat3Model1.ShiftWorker">
+        <MappingFragment StoreEntitySet="ShiftWorker">
+          <ScalarProperty Name="ShiftId" ColumnName="ShiftId" />
+          <ScalarProperty Name="WorkerId" ColumnName="WorkerId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

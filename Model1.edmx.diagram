@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="ee41764f677e4f62b0803b5d312212d2" Name="Diagram1">
+        <EntityTypeShape EntityType="gr682_uat3Model.Dishes" Width="1.5" PointX="5.25" PointY="10.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="gr682_uat3Model.OrderDish" Width="1.5" PointX="7.5" PointY="3.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="gr682_uat3Model.Orders" Width="1.5" PointX="5.25" PointY="3.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="gr682_uat3Model.Roles" Width="1.5" PointX="0.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="gr682_uat3Model.Shifts" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="gr682_uat3Model.Statuses" Width="1.5" PointX="3" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="gr682_uat3Model.Tables" Width="1.5" PointX="5.25" PointY="7.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="gr682_uat3Model.Workers" Width="1.5" PointX="3" PointY="2.75" IsExpanded="true" />
+        <AssociationConnector Association="gr682_uat3Model.FK_OrderDish_Dishes" ManuallyRouted="false" />
+        <AssociationConnector Association="gr682_uat3Model.FK_OrderDish_Orders" ManuallyRouted="false" />
+        <AssociationConnector Association="gr682_uat3Model.FK_Orders_Statuses" ManuallyRouted="false" />
+        <AssociationConnector Association="gr682_uat3Model.FK_Orders_Workers" ManuallyRouted="false" />
+        <AssociationConnector Association="gr682_uat3Model.FK_Workers_Roles" ManuallyRouted="false" />
+        <AssociationConnector Association="gr682_uat3Model.FK_Tables_Workers" ManuallyRouted="false" />
+        <AssociationConnector Association="gr682_uat3Model.ShiftWorker" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
